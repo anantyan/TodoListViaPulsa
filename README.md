@@ -22,7 +22,7 @@ Application todo list List of people's names with Job Title and Job Description 
 - Applying `Dependency Injection` ✔
 - Applying `Clean Architecture` ✔
 - Applying `Coroutine` Background Task ✔
-- Applying Testing minimum 31 Test Case - `Unit Testing` - [link](#-technology-and-library) ✔
+- Applying Testing passed 31 Test Case - `Unit Testing` ✔
 - Applying `Networking` Rest API ✔
 
 ### 👣 Technology and Library
@@ -49,5 +49,5 @@ Application todo list List of people's names with Job Title and Job Description 
 - This is if you want to run native apps
 ![image](https://github.com/anantyan/TodoListViaPulsa/assets/43742778/a7a2a7b0-54eb-4bd1-b0ec-6ebc51a439a5)
 
-
-
+- This is if you want see test report unit test
+![image](https://github.com/anantyan/TodoListViaPulsa/assets/43742778/2ac7bada-a744-487d-b38f-657bc874a55b)
