@@ -42,7 +42,6 @@ android {
     buildFeatures {
         buildConfig = true
         viewBinding = true
-        dataBinding = true
     }
 }
 
@@ -63,11 +62,11 @@ dependencies {
     implementation("androidx.fragment:fragment-ktx:1.7.1")
 
     implementation("com.google.dagger:hilt-android:2.49")
+    testImplementation("org.junit.jupiter:junit-jupiter:5.8.1")
     ksp("com.google.dagger:hilt-compiler:2.48.1")
 
     implementation("io.coil-kt:coil:2.6.0")
     implementation("com.github.anderscheow:validator:3.0.3")
-    implementation("com.github.SimformSolutionsPvtLtd:SSImagePicker:2.1")
 
     implementation("androidx.room:room-ktx:2.6.1")
     implementation("androidx.room:room-runtime:2.6.1")
@@ -82,6 +81,9 @@ dependencies {
     debugImplementation("com.github.chuckerteam.chucker:library:4.0.0")
     releaseImplementation("com.github.chuckerteam.chucker:library-no-op:4.0.0")
 
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.4")
+    testImplementation("io.mockk:mockk:1.13.11")
+    testImplementation("androidx.arch.core:core-testing:2.2.0")
     testImplementation(libs.junit)
 
     androidTestImplementation(libs.androidx.junit)

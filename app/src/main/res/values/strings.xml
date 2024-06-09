@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Todo List - ViaPulsa</string>
+    <string name="txt_not_null">Form content cannot be null!</string>
+    <string name="txt_not_empty">Form cannot be empty!</string>
 </resources>
